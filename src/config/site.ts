@@ -15,10 +15,14 @@ export const META_THEME_COLORS = {
 };
 
 export const MAIN_NAV: NavItem[] = [
-  {
-    title: "Blogs",
-    href: "/blog",
-  },
+  // {
+  //   title: "Blogs",
+  //   href: "/blog",
+  // },
+  // {
+  //   title: "Projects",
+  //   href: "/#projects",
+  // },
 ];
 
 export const SOURCE_CODE_GITHUB_URL = "https://github.com/shailesh43/shaileshsathe";

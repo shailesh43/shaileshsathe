@@ -6,15 +6,17 @@ import {
   BriefcaseBusinessIcon,
   CircleUserIcon,
   CornerDownLeftIcon,
+  FileDownIcon,
   DownloadIcon,
   LetterTextIcon,
   MoonStarIcon,
-  RssIcon,
+  NotebookIcon,
   SunIcon,
   TextIcon,
   TriangleDashedIcon,
   TypeIcon,
 } from "lucide-react";
+
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useTheme } from "next-themes";
@@ -36,7 +38,6 @@ import type { Post } from "@/types/blog";
 import { copyText } from "@/utils/copy";
 
 import { ChanhDaiMark, getMarkSVG } from "./chanhdai-mark";
-import { getWordmarkSVG } from "./chanhdai-wordmark";
 import { Icons } from "./icons";
 import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
@@ -53,24 +54,6 @@ type CommandLinkItem = {
 
 const MENU_LINKS: CommandLinkItem[] = [
   {
-    title: "Daifolio",
-    href: "/",
-    icon: ChanhDaiMark,
-  },
-  {
-    title: "Blog",
-    href: "/blog",
-    icon: RssIcon,
-  },
-  {
-    title: "Components",
-    href: "/components",
-    icon: Icons.react,
-  },
-];
-
-const DAIFOLIO_LINKS: CommandLinkItem[] = [
-  {
     title: "About",
     href: "/#about",
     icon: LetterTextIcon,
@@ -81,29 +64,29 @@ const DAIFOLIO_LINKS: CommandLinkItem[] = [
     icon: Icons.ts,
   },
   {
-    title: "Experience",
-    href: "/#experience",
-    icon: BriefcaseBusinessIcon,
-  },
-  {
     title: "Projects",
     href: "/#projects",
     icon: Icons.project,
   },
   {
-    title: "Honors & Awards",
-    href: "/#awards",
-    icon: Icons.award,
+    title: "Resume",
+    href: "/",
+    icon: FileDownIcon,
+  },
+  {
+    title: "Blog",
+    href: "/blog",
+    icon: NotebookIcon,
+  },
+  {
+    title: "Experience",
+    href: "/#experience",
+    icon: BriefcaseBusinessIcon,
   },
   {
     title: "Certifications",
     href: "/#certs",
     icon: Icons.certificate,
-  },
-  {
-    title: "Download vCard",
-    href: "/vcard",
-    icon: CircleUserIcon,
   },
 ];
 
@@ -234,29 +217,15 @@ export function CommandMenu({ posts }: { posts: Post[] }) {
 
           <CommandSeparator />
 
-          <CommandLinkGroup
-            heading="Daifolio"
-            links={DAIFOLIO_LINKS}
-            onLinkSelect={handleOpenLink}
-          />
 
-          <CommandSeparator />
+          {/* <CommandSeparator /> */}
 
-          <CommandLinkGroup
+          {/* <CommandLinkGroup
             heading="Blog"
             links={blogLinks}
             fallbackIcon={TextIcon}
             onLinkSelect={handleOpenLink}
-          />
-
-          <CommandSeparator />
-
-          <CommandLinkGroup
-            heading="Components"
-            links={componentLinks}
-            fallbackIcon={Icons.react}
-            onLinkSelect={handleOpenLink}
-          />
+          /> */}
 
           <CommandSeparator />
 
@@ -265,48 +234,6 @@ export function CommandMenu({ posts }: { posts: Post[] }) {
             links={SOCIAL_LINK_ITEMS}
             onLinkSelect={handleOpenLink}
           />
-
-          <CommandSeparator />
-
-          <CommandGroup heading="Brand Assets">
-            <CommandItem
-              onSelect={() => {
-                handleCopyText(
-                  getMarkSVG(resolvedTheme === "light" ? "#000" : "#fff"),
-                  "Copied Mark as SVG"
-                );
-              }}
-            >
-              <ChanhDaiMark />
-              Copy Mark as SVG
-            </CommandItem>
-
-            <CommandItem
-              onSelect={() => {
-                handleCopyText(
-                  getWordmarkSVG(resolvedTheme === "light" ? "#000" : "#fff"),
-                  "Copied Logotype as SVG"
-                );
-              }}
-            >
-              <TypeIcon />
-              Copy Logotype as SVG
-            </CommandItem>
-
-            <CommandItem
-              onSelect={() => handleOpenLink("/blog/chanhdai-brand")}
-            >
-              <TriangleDashedIcon />
-              Brand Guidelines
-            </CommandItem>
-
-            <CommandItem asChild>
-              <a href="https://assets.chanhdai.com/chanhdai-brand.zip" download>
-                <DownloadIcon />
-                Download Brand Assets
-              </a>
-            </CommandItem>
-          </CommandGroup>
 
           <CommandSeparator />
 
@@ -438,7 +365,7 @@ function CommandMenuFooter() {
       <div className="flex h-10" />
 
       <div className="absolute inset-x-0 bottom-0 flex h-10 items-center justify-between gap-2 border-t bg-zinc-100/30 px-4 text-xs font-medium dark:bg-zinc-800/30">
-        <ChanhDaiMark className="size-6 text-muted-foreground" aria-hidden />
+        <div className="logo size-6 text-muted-foreground" aria-hidden />
 
         <div className="flex shrink-0 items-center gap-2">
           <span>{ENTER_ACTION_LABELS[selectedCommandKind]}</span>
