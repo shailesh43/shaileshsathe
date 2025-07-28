@@ -21,11 +21,11 @@
     "url": "git+https://github.com/shailesh43/shaileshsathe.git"
   },
   "scripts": {
-    "dev": "next dev -p 1408 --turbopack",
+    "dev": "next dev -p 8080 --turbopack",
     "build": "next build",
     "build:turbo": "next build --turbopack",
     "start": "next start",
-    "preview": "next build --turbopack && next start -p 1408",
+    "preview": "next build --turbopack && next start -p 8080",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "check-types": "tsc --noEmit --pretty",
