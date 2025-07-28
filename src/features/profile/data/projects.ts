@@ -16,6 +16,7 @@ export const PROJECTS: Project[] = [
       "Monorepo",
       "Judge0",
       "GenAI",
+      "Supabase",
       "Postgres",
       "NPM Registry",
       "d3js",

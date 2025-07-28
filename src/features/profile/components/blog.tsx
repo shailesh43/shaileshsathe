@@ -1,12 +1,13 @@
 // import { ArrowRightIcon } from "lucide-react";
 // import Link from "next/link";
-import React from "react";
-
 // import { PostItem } from "@/components/post-item";
 // import { Button } from "@/components/ui/button";
 // import { getAllPosts } from "@/data/blog";
 
+import React from "react";
+
 import { Panel, PanelHeader, PanelTitle } from "./panel";
+
 
 export function Blog() {
   // const allPosts = getAllPosts();

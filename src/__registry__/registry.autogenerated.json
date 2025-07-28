@@ -1,13 +1,13 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "ncdai",
+  "name": "shailesh",
   "homepage": "https://chanhdai.com",
   "items": [
     {
       "name": "utils",
       "type": "registry:lib",
       "title": "Utility Functions",
-      "author": "ncdai <dai@chanhdai.com>",
+      "author": "shailesh <satheshailesh43@gmail.com>",
       "dependencies": [
         "clsx",
         "tailwind-merge"
@@ -38,7 +38,7 @@
       "name": "theme-switcher",
       "type": "registry:component",
       "title": "Theme Switcher",
-      "author": "ncdai <dai@chanhdai.com>",
+      "author": "shailesh <satheshailesh43@gmail.com>",
       "description": "A theme switcher component for Next.js apps with next-themes and Tailwind CSS, supporting system, light, and dark modes.",
       "dependencies": [
         "next-themes",
@@ -60,7 +60,7 @@
       "name": "flip-sentences",
       "type": "registry:component",
       "title": "Flip Sentences",
-      "author": "ncdai <dai@chanhdai.com>",
+      "author": "shailesh <satheshailesh43@gmail.com>",
       "dependencies": [
         "motion"
       ],
@@ -78,7 +78,7 @@
       "name": "apple-hello-effect",
       "type": "registry:component",
       "title": "Apple Hello Effect",
-      "author": "ncdai <dai@chanhdai.com>",
+      "author": "shailesh <satheshailesh43@gmail.com>",
       "description": "Create a Xin chào and Hello writing effect inspired by Apple using Motion for React.",
       "dependencies": [
         "motion"
@@ -98,7 +98,7 @@
       "name": "wheel-picker",
       "type": "registry:component",
       "title": "Wheel Picker",
-      "author": "ncdai <dai@chanhdai.com>",
+      "author": "shailesh <satheshailesh43@gmail.com>",
       "description": "iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support.",
       "dependencies": [
         "@ncdai/react-wheel-picker"
@@ -118,7 +118,7 @@
       "name": "work-experience",
       "type": "registry:component",
       "title": "Work Experience",
-      "author": "ncdai <dai@chanhdai.com>",
+      "author": "shailesh <satheshailesh43@gmail.com>",
       "description": "Displays a list of work experiences with role details and durations.",
       "dependencies": [
         "react-markdown",

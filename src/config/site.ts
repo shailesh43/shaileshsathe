@@ -24,7 +24,7 @@ export const MAIN_NAV: NavItem[] = [
 export const SOURCE_CODE_GITHUB_URL = "https://github.com/shailesh43/shaileshsathe";
 
 export const UTM_PARAMS = {
-  utm_source: "chanhdai.com",
+  utm_source: "shaileshsathe.vercel.app",
   utm_medium: "portfolio_website",
   utm_campaign: "referral",
 };

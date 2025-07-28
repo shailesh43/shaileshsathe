@@ -8,7 +8,6 @@ export const USER = {
   flipSentences: [
     "Design Engineer",
     "Software Developer",
-    "Open Source Contributor",
   ],
   address: "Mumbai, Maharashtra, IN",
   phoneNumber: "OTEzNzczOTE1OQo=", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
@@ -43,6 +42,6 @@ Let's connect and collaborate!
   avatarWebp: "https://avatars.githubusercontent.com/u/142669019?v=4",
   ogImage: "https://avatars.githubusercontent.com/u/142669019?v=4",
   keywords:
-    "ncdai, nguyenchanhdai, nguyen chanh dai, chanhdai, chanh dai, iamncdai, quaric, zadark, nguyễn chánh đại, chánh đại",
-  dateCreated: "2023-10-20", // YYYY-MM-DD
+    "shailesh, shailesh sathe, Shailesh Sathe, Shailesh Portfolio, Shailesh Design Engineer, Portfolio, Design Engineer portfolio",
+  dateCreated: "2025-07-28", // YYYY-MM-DD
 };
