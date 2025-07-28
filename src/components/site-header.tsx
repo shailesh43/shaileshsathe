@@ -1,26 +1,21 @@
 import dynamic from "next/dynamic";
-import Image from "next/image";
 import Link from "next/link";
 
 import { DesktopNav } from "@/components/desktop-nav";
 import { MobileNav } from "@/components/mobile-nav";
-import { NavItemGitHub } from "@/components/nav-item-github";
+import { NavItemResume } from "@/components/nav-item-resume";
 import { ToggleTheme } from "@/components/toggle-theme";
 import { MAIN_NAV } from "@/config/site";
-import { getAllPosts } from "@/data/blog";
 import { cn } from "@/lib/utils";
 
-import logo from "./logo.png";
 import { SiteHeaderWrapper } from "./site-header-wrapper";
 
-
-
+  
 const CommandMenu = dynamic(() =>
   import("@/components/command-menu").then((mod) => mod.CommandMenu)
 );
 
 export function SiteHeader() {
-  const posts = getAllPosts();
 
   return (
     <SiteHeaderWrapper
@@ -37,7 +32,7 @@ export function SiteHeader() {
       >
         <div>
           <Link href="/" aria-label="Home" className="[&_svg]:h-8">
-            <Image src={logo} alt="logo" height={30}/>
+            {/* <Image src={logo} alt="logo" height={30}/> */}
           </Link>
         </div>
 
@@ -46,8 +41,8 @@ export function SiteHeader() {
         <DesktopNav items={MAIN_NAV} />
 
         <div className="flex items-center gap-2">
-          <CommandMenu posts={posts} />
-          <NavItemGitHub />
+          <CommandMenu />
+          <NavItemResume />
           <ToggleTheme />
           <MobileNav className="sm:hidden" items={MAIN_NAV} />
         </div>

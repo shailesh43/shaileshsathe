@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import { SITE_INFO, SOURCE_CODE_GITHUB_URL } from "@/config/site";
 import { cn } from "@/lib/utils";
+
 import logo from "./logo.png"
 
 export function SiteFooter() {
@@ -40,7 +41,7 @@ export function SiteFooter() {
             "bg-[repeating-linear-gradient(315deg,var(--pattern-foreground)_0,var(--pattern-foreground)_1px,transparent_0,transparent_50%)] bg-size-[10px_10px] [--pattern-foreground:var(--color-edge)]/56"
           )}
         >
-          <div className="mx-auto flex items-center justify-center gap-3 border-x border-edge bg-background px-4 align-middle">
+          <div className="mx-auto p-2 flex items-center justify-center gap-3 border-x border-edge bg-background px-4 align-middle">
             <a
               className="flex font-mono text-xs font-medium text-muted-foreground align-middle"
               href={`${SITE_INFO.url}/llms.txt`}
@@ -49,8 +50,6 @@ export function SiteFooter() {
             >
               <Image src={logo} alt="logo" height={30}/> 
             </a>
-            <Separator />
-            <Separator />
 
           </div>
         </div>
@@ -60,8 +59,4 @@ export function SiteFooter() {
       </div>
     </footer>
   );
-}
-
-function Separator() {
-  return <div className="flex h-11 w-px bg-edge" />;
 }
