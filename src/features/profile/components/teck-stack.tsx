@@ -32,10 +32,10 @@ export function TeckStack() {
                     rel="noopener noreferrer"
                     aria-label={tech.title}
                   >
-                    {tech.theme ? (
+                    {tech.theme && typeof tech.img === 'object' ? (
                       <>
                         <Image
-                          src={`${tech.img.light}`}
+                          src={tech.img.light}
                           alt={`${tech.title} light icon`}
                           width={36}
                           height={36}
@@ -43,7 +43,7 @@ export function TeckStack() {
                           unoptimized
                         />
                         <Image
-                          src={`${tech.img.dark}`}
+                          src={tech.img.dark}
                           alt={`${tech.title} dark icon`}
                           width={36}
                           height={36}
