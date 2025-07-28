@@ -27,7 +27,6 @@ import {
 } from "@/components/ui/command";
 import { SOCIAL_LINKS } from "@/features/profile/data/social-links";
 import { cn } from "@/lib/utils";
-import type { Post } from "@/types/blog";
 
 import { Icons } from "./icons";
 import { Button } from "./ui/button";
@@ -390,12 +389,3 @@ function CommandMenuKbd({ className, ...props }: React.ComponentProps<"kbd">) {
   );
 }
 
-function postToCommandLinkItem(post: Post): CommandLinkItem {
-  const isComponent = post.metadata?.category === "components";
-
-  return {
-    title: post.metadata.title,
-    href: isComponent ? `/components/${post.slug}` : `/blog/${post.slug}`,
-    keywords: isComponent ? ["component"] : undefined,
-  };
-}
