@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { SITE_INFO, SOURCE_CODE_GITHUB_URL } from "@/config/site";
+import { SOURCE_CODE_GITHUB_URL } from "@/config/site";
 import { cn } from "@/lib/utils";
 
 import logo from "./logo.png"
@@ -44,7 +44,6 @@ export function SiteFooter() {
           <div className="mx-auto p-2 flex items-center justify-center gap-3 border-x border-edge bg-background px-4 align-middle">
             <a
               className="flex font-mono text-xs font-medium text-muted-foreground align-middle"
-              href={`${SITE_INFO.url}/llms.txt`}
               target="_blank"
               rel="noopener noreferrer"
             >

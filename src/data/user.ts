@@ -30,9 +30,7 @@ export const USER = {
   jobTitle: "Design Engineer",
   jobs: [],
   about: `
-Heyaa, I'm Shailesh — a Design Engineer/Software Developer passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs.
-
-With 3+ years of experience, I specialize in building high-quality web and mobile applications using Next.js, React, TypeScript, and modern front-end technologies. Beyond work, I love exploring new technologies and turning ideas into reality through personal projects.
+  नमस्ते 🙏 I'm Shailesh — a Design Engineer/Software Developer currently studying Computer Engineering at Mumbai University, India. I specialize in building high-quality & responsive user interfaces using React, Tailwind CSS & Motion. Along with that, I've good understanding in backend development too.
 
 One of my key projects, [Astrus](https://marketplace.visualstudio.com/items?itemName=shailesh43.astrus), a minimal and sleek vs code dark mode multivariant theme, surpassing 50+ downloads on [VS code](https://marketplace.visualstudio.com/)'s marketplace.
 
