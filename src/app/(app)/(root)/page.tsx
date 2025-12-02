@@ -6,7 +6,6 @@ import { About } from "@/features/profile/components/about";
 import { Blog } from "@/features/profile/components/blog";
 import { Certifications } from "@/features/profile/components/certifications";
 // import { Experiences } from "@/features/profile/components/experiences";
-import { Overview } from "@/features/profile/components/overview";
 import { ProfileHeader } from "@/features/profile/components/profile-header";
 import { Projects } from "@/features/profile/components/projects";
 import { SocialLinks } from "@/features/profile/components/social-links";
@@ -26,9 +25,7 @@ export default function Page() {
       <div className="mx-auto md:max-w-3xl">
         <ProfileHeader />
         <Separator />
-
-        <Overview />
-        <Separator />
+        {/* <Separator /> */}
 
         <SocialLinks />
         <Separator />
@@ -50,7 +47,6 @@ export default function Page() {
 
         <Certifications />
         <Separator />
-
         <Separator />
       </div>
     </>
