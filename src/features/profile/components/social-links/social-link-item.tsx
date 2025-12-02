@@ -8,7 +8,7 @@ export function SocialLinkItem({ icon, title, description, href }: SocialLink) {
   return (
     <a
       className={cn(
-        "group/link flex cursor-pointer items-center gap-4 rounded-2xl p-4 pr-2 transition-colors select-none",
+        "group/link flex cursor-pointer items-center gap-1.5 rounded-2xl p-4 pr-2 transition-colors select-none",
         "max-sm:screen-line-before max-sm:screen-line-after",
         "sm:nth-[2n+1]:screen-line-before sm:nth-[2n+1]:screen-line-after"
       )}
@@ -18,15 +18,15 @@ export function SocialLinkItem({ icon, title, description, href }: SocialLink) {
     >
       <div className="relative size-12 shrink-0">
         <Image
-          className="rounded-xl"
+          className="rounded-lg"
           src={icon}
           alt={title}
-          width={48}
-          height={48}
+          width={36}
+          height={36}
           quality={100}
           unoptimized
         />
-        <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-black/8 ring-inset dark:ring-white/8" />
+        <div className="pointer-events-none absolute inset-0 sm:rounded-xl ring- ring-black/8 ring-inset dark:ring-white/8" />
       </div>
 
       <div className="flex-1">
