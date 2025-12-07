@@ -22,7 +22,10 @@ export const USER = {
   about: `
   **Namaste!** I'm *Shailesh* -  20 yo Computer Science grad at Mumbai University
   - Most days, I'm building with [Next.js](), [React](), [TypeScript](), and modern frontend techs; crafting responsive, user-centric interaces across web & mobile.
-  - 
+  - Alongside, I’ve built a strong foundations in **APIs, Databases, Cloud services, and UNIX configs**; allowing me to handle the backend side when needed.  
+  - I also contribute to tech communities in college; helping organize seminars & volunteering with tech-stuff.
+  
+  Let’s connect and build together.
   `,
   avatar: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.jpeg",
   avatarWebp: "https://avatars.githubusercontent.com/u/142669019?v=4",
