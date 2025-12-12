@@ -8,7 +8,7 @@ export function Certifications() {
   return (
     <Panel id="certs">
       <PanelHeader>
-        <PanelTitle>
+        <PanelTitle className="font-serif">
           Certifications
           <sup className="ml-1 font-mono text-sm font-medium text-muted-foreground select-none">
             ({CERTIFICATIONS.length})

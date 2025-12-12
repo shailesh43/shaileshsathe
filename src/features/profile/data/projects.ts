@@ -2,38 +2,36 @@ import type { Project } from "../types/projects";
 
 export const PROJECTS: Project[] = [
   {
-    id: "socratic",
-    title: "Socratic",
+    id: "shover",
+    title: "Shover",
     period: {
-      start: "07.2025",
+      start: "Oct 2025",
     },
-    link: "https://github.com/shailesh43/Socratic",
+    link: "https://github.com/shailesh43/Shover",
     skills: [
-      "Open Source",
-      "React",
       "TypeScript",
+      "React",
+      "tailwindCSS",
       "shadcn/ui",
-      "Monorepo",
-      "Judge0",
-      "GenAI",
-      "Supabase",
-      "Postgres",
-      "NPM Registry",
-      "d3js",
+      "Motion",
+      "Fuma DOCS",
+      "NPM",
+      "shadcn registry",
     ],
-    description: `Master coding concepts with personalized hints that guide your thinking process, helping you discover solutions independently.
-- Interactive Coding Environment with real-time hints/suggestions.
-- Multi-language support for C/C++, Java, Python, JavaScript & GoLang
-- Large set of questions with range of difficulty (EASY, MEDIUM and HARD)
-- Personalized dashboards of user progress & learning areas`,
-    logo: "https://github.com/shailesh43/Socratic/blob/main/public/socratic-mono.png?raw=true",
+    description: `Build modern, sleek & animated design interfaces with shover.
+- Reusable components designed for clean, minimal, and modern interfaces.
+- Built-in motion primitives for smooth, subtle, and expressive UI interactions.
+- Easy customization with flexible props and consistent design foundations throughout.
+- Lightweight architecture focused on performance, accessibility, and developer experience.`,
+    logo: "https://raw.githubusercontent.com/shailesh43/Shover/ce04cddfb2746060561423d7bb2b410c875d2ec3/public/Shover-logo.svg",
     isExpanded: true,
   },
   {
     id: "pomesh",
     title: "Pomeshh",
     period: {
-      start: "01.2025",
+      start: "Jan 2025",
+      end: "Dec 2025"
     },
     link: "https://pomeshh-v1.vercel.app/",
     skills: [
@@ -61,7 +59,8 @@ export const PROJECTS: Project[] = [
     id: "astrus",
     title: "Astrus",
     period: {
-      start: "06.2025",
+      start: "July 2025",
+      end: "Oct 2025"
     },
     link: "https://marketplace.visualstudio.com/items?itemName=shailesh43.astrus",
     skills: [
@@ -79,4 +78,32 @@ export const PROJECTS: Project[] = [
     isExpanded: true,
     logo: "https://shailesh43.gallerycdn.vsassets.io/extensions/shailesh43/astrus/0.1.3/1751810867095/Microsoft.VisualStudio.Services.Icons.Default",
   },
+//   {
+//     id: "socratic",
+//     title: "Socratic",
+//     period: {
+//       start: "July 2025",
+//     },
+//     link: "https://github.com/shailesh43/Socratic",
+//     skills: [
+//       "Open Source",
+//       "React",
+//       "TypeScript",
+//       "shadcn/ui",
+//       "Monorepo",
+//       "Judge0",
+//       "GenAI",
+//       "Supabase",
+//       "Postgres",
+//       "NPM Registry",
+//       "d3js",
+//     ],
+//     description: `Master coding concepts with personalized hints that guide your thinking process, helping you discover solutions independently.
+// - Interactive Coding Environment with real-time hints/suggestions.
+// - Multi-language support for C/C++, Java, Python, JavaScript & GoLang
+// - Large set of questions with range of difficulty (EASY, MEDIUM and HARD)
+// - Personalized dashboards of user progress & learning areas`,
+//     logo: "https://github.com/shailesh43/Socratic/blob/main/public/socratic-mono.png?raw=true",
+//     isExpanded: true,
+//   }
 ];
