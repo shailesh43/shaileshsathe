@@ -8,7 +8,7 @@ export function Projects() {
   return (
     <Panel id="projects">
       <PanelHeader>
-        <PanelTitle>
+        <PanelTitle className="font-serif">
           Projects
           <sup className="ml-1 font-mono text-sm text-muted-foreground select-none">
             ({PROJECTS.length})

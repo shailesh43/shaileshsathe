@@ -15,7 +15,7 @@ export function Blog() {
   return (
     <Panel id="blog">
       <PanelHeader>
-        <PanelTitle>Blogs</PanelTitle>
+        <PanelTitle className="font-serif">Blogs</PanelTitle>
       </PanelHeader>
       <p className="ml-5 font-mono text-sm font-medium text-muted-foreground select-none">Coming Soon...</p>
 
