@@ -14,15 +14,15 @@ export const SOCIAL_LINKS: SocialLink[] = [
     href: "https://github.com/shailesh43",
   },
   {
+    icon: "https://media2.dev.to/dynamic/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F5999%2F0087fd8c-f0be-4770-a4d5-94eeaf533a15.png",
+    title: "Peerlist",
+    description: "shailesh43",
+    href: "https://peerlist.io/shailesh43",
+  },
+  {
     icon: "https://assets.chanhdai.com/images/link-icons/x.webp",
     title: "X",
     description: "@shai13sh",
     href: "https://x.com/shai13sh",
-  },
-  {
-    icon: "https://solidhelium.gallerycdn.vsassets.io/extensions/solidhelium/codeforces-submitter/1.0.0/1710981064378/Microsoft.VisualStudio.Services.Icons.Default",
-    title: "CodeForces",
-    description: "shailesh04",
-    href: "https://codeforces.com/profile/shailesh04",
   },
 ];
