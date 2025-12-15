@@ -64,8 +64,10 @@ export const PROJECTS: Project[] = [
     },
     link: "https://marketplace.visualstudio.com/items?itemName=shailesh43.astrus",
     skills: [
-      "VS code Theme",
+      "Cross IDE support",
+      "Multi-variant",
       "json-schema",
+      "YAML",
       "UI/UX",
       "npm",
       "Documentation",
@@ -76,7 +78,7 @@ export const PROJECTS: Project[] = [
 - Available in three variants (STANDARD, MIDNIGHT, NEBULA).  
 - Thoughtfully designed color contrasts make it easier to navigate, understand,`,
     isExpanded: true,
-    logo: "https://shailesh43.gallerycdn.vsassets.io/extensions/shailesh43/astrus/0.1.3/1751810867095/Microsoft.VisualStudio.Services.Icons.Default",
+    logo: "https://github.com/shailesh43/Astrus/blob/main/astrus-logo-v1.png?raw=true",
   },
 //   {
 //     id: "socratic",
