@@ -72,37 +72,37 @@
 
 :root {
   /* white */
-  --background: oklch(1 0 0);
+  --background: #fffff4;
 
   /* zinc-950 */
-  --foreground: oklch(0.141 0.005 285.823);
+  --foreground: #303030;
 
   /* zinc-950 */
   --primary: oklch(0.141 0.005 285.823);
 
   /* zinc-50 */
-  --primary-foreground: oklch(0.985 0 0);
+  --primary-foreground: #fffff4;
 
   /* zinc-100 */
   --secondary: oklch(0.967 0.001 286.375);
 
   /* zinc-950 */
-  --secondary-foreground: oklch(0.141 0.005 285.823);
+  --secondary-foreground: #303030;
 
   /* zinc-100 */
-  --muted: oklch(0.967 0.001 286.375);
+  --muted: #fffff4;
 
   /* zinc-500 */
   --muted-foreground: oklch(0.552 0.016 285.938);
 
   /* white */
-  --card: oklch(1 0 0);
+  --card: #fffff4;
 
   /* zinc-950 */
   --card-foreground: oklch(0.141 0.005 285.823);
 
   /* white */
-  --popover: oklch(1 0 0);
+  --popover: #fffff4;
 
   /* zinc-950 */
   --popover-foreground: oklch(0.141 0.005 285.823);
@@ -110,7 +110,7 @@
   --popover-border: color-mix(in oklab, var(--color-black) 15%, transparent);
 
   /* zinc-100 */
-  --accent: oklch(0.967 0.001 286.375);
+  --accent: #fffff4;
 
   /* zinc-900 */
   --accent-foreground: oklch(0.21 0.006 285.885);
@@ -154,7 +154,7 @@
 
 .dark {
   /* zinc-950 */
-  --background: oklch(0.141 0.005 285.823);
+  --background: #1a1a1a;
 
   /* zinc-50 */
   --foreground: oklch(0.985 0 0);
@@ -227,7 +227,7 @@
   /* zinc-800 */
   --code-highlight: oklch(0.274 0.006 286.033);
 
-  --shadow-popover: 0 0 24px rgba(0, 0, 0, 0.5);
+  --shadow-popover: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 @layer base {

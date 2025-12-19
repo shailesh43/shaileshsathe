@@ -1,6 +1,6 @@
 import {
-  IBM_Plex_Mono as FontMono,
-  IBM_Plex_Sans as FontSans,
+  Geist as FontSans,
+  Geist_Mono as FontMono,
 } from "next/font/google";
 
 export const fontSans = FontSans({
