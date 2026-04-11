@@ -3,25 +3,23 @@ import type { Experience } from "../types/experiences";
 export const EXPERIENCES: Experience[] = [
   {
     "id": "tata-power",
-    "companyName": "Tata Power",
-    "companyLogo": "https://github.com/shailesh43/GreenGears/blob/main/assets/images/tata_power_full_logo.png?raw=true",
+    "companyName": "Tata Power - Andheri, Mumbai",
+    "companyLogo": "https://1000logos.net/wp-content/uploads/2020/04/Tata-Logo-1988.png",
     "positions": [
       {
         "id": "intern-gg-001",
-        "title": "Software Engineering Intern",
+        "title": "SDE Intern",
         "employmentPeriod": {
           "start": "12.2025"
         },
         "employmentType": "Internship",
         // "location": "Andheri, Mumbai",
         "icon": "code",
-        "description": `- Contributed to the development of "GreenGears", a production-grade mobile application focused on sustainability and energy insights.
-  - Built cross-platform mobile application using Flutter with scalable and maintainable architecture.
-  - Developed backend services using Node.js, handling APIs, authentication, and data processing.
+        "description": `Contributed to the development of **[GreenGears]()**, a production-grade cross-platform mobile application focused on sustainability and energy insights.
+  - Built the app using Flutter and developed backend services with Node.js covering API design, authentication, and data processing.
+  - Followed GitLab workflows including branching strategies, merge requests, and CI/CD pipelines throughout the development lifecycle.
   - Implemented Single Sign-On (SSO) using SAML-based authentication integrated with Microsoft Azure Active Directory.
-  - Strengthened application security by implementing SSL Pinning to prevent man-in-the-middle (MITM) attacks.
-  - Worked on API design, error handling, and network layer optimization.
-  - Practiced GitLab-based workflow including branching strategies, merge requests, and CI/CD pipelines.
+  - Configured a multi-layered security approach including SSL Pinning, MIME-type file validation, and CA certificate management
   - Focused on performance optimization, clean code practices, and scalable architecture.`,
         "skills": [
           "Flutter",
@@ -47,95 +45,59 @@ export const EXPERIENCES: Experience[] = [
     "isCurrentEmployer": true
   },
   {
-    id: "education",
-    companyName: "Education",
-    positions: [
-      {
-        id: "c47f5903-88ae-4512-8a50-0b91b0cf99b6",
-        title: "University of Mumbai — VNUHCM",
-        employmentPeriod: {
-          start: "08.2018",
-          end: "2026",
-        },
-        icon: "education",
-        description: `- Currently studying for a Bachelor's degree in Information Systems.
-- Language Proficiency: B1 English Level.
-- Achieved several awards, including:
-  - Bronze Medal — 10th Design, Manufacturing, and Application Award 2022
-  - 2nd Prize — Business Startup Competition 2019`,
-        skills: [
-          "C++",
-          "Java",
-          "Python",
-          "Data Structures",
-          "Algorithms",
-          "Advanced Databases",
-          "Systems Design",
-          "Distributed Systems",
-          "Software Engineering",
-          "Self-learning",
-          "Teamwork",
-          "Presentation",
-        ],
+  id: "education",
+  companyName: "Education",
+  positions: [
+    {
+      id: "sige-ce-001",
+      title: "Smt. Indira Gandhi College of Engineering",
+      employmentPeriod: {
+        start: "11.2022",
+        end: "present",
       },
-      {
-        id: "70131ed8-36d9-4e54-8c78-eaed18240eca",
-        title: "Ly Tu Trong High School for the Gifted — Can Tho City",
-        employmentPeriod: {
-          start: "08.2015",
-          end: "06.2018",
-        },
-        icon: "education",
-        description: `- Student of the Specialized Computer Science Program.
-- Granted direct admission to university due to achieving 3rd Prize at the national level.
-- [Achieved numerous awards](https://baocantho.com.vn/nguyen-chanh-dai-17-tuoi-va-19-giai-thuong-a97348.html) at city and national levels, including:
-  - [3rd Prize](https://muctim.tuoitre.vn/cong-cu-ho-tro-viec-day-va-hoc-55107.htm) — National Science and Engineering Fair 2018 (ViSEF)
-  - 1st Prize — Can Tho City Science and Engineering Fair 2018
-  - Creativity Award — Binh Duong Hackathon 2017
-  - Consolation Prize — National Youth and Children's Creativity Contest 2016
-  - [1st Prize](https://www.youtube.com/watch?v=OYgugvjqU4A) — Can Tho City Youth and Children's Creativity Contest 2016
-  - 3rd Prize — National Young Informatics Contest 2016
-- Achieved the title of Outstanding Student from Grade 10-12.
-- Selected for the National Excellent Student Contest in Informatics for two consecutive years during high school.
-- Honored on the school's "Hall of Fame" for academic achievements.
-- Developed a feature using Node.js and Pandoc to recognize multiple-choice questions from .docx files and upload them to an [online quiz platform](https://youtu.be/QjR99wdmTyo) I created.
-- Developed websites based on Laravel framework.
-- Built websites with PHP and MySQL, following the MVC architecture.`,
-        skills: [
-          "Algorithms",
-          "C++",
-          "PHP",
-          "MySQL",
-          "Laravel",
-          "Node.js",
-          "Pandoc",
-          "Self-learning",
-        ],
+      icon: "education",
+      description: `Pursuing a Bachelor's degree in Computer Engineering under [University of Mumbai]() with 8.6 CGPA. Gaining hands-on experience in software development, systems design, and modern engineering practices alongside academic coursework.`,
+      skills: [
+        "Data Structures",
+        "Algorithms",
+        "Database Management",
+        "Systems Design",
+        "Software Engineering",
+        "Networking",
+        "Data Science & machine learning",
+        "Cybersecurity",
+      ],
+    },
+    {
+      id: "rvn-jr-001",
+      title: "R. V. Nerurkar Junior College",
+      employmentPeriod: {
+        start: "06.2020",
+        end: "06.2022",
       },
-      {
-        id: "36c4c6fb-02d0-48c0-8947-fda6e9a24af7",
-        title: "Thuan Hung Secondary School",
-        employmentPeriod: {
-          start: "08.2011",
-          end: "06.2015",
-        },
-        icon: "education",
-        description: `- Recognized as the most outstanding student of the district.
-- Achieved numerous awards at city and national levels:
-  - Consolation Prize — National Young Informatics Contest 2015
-  - Consolation Prize — National Young Informatics Contest 2014
-  - 1st Prize — Can Tho City Young Informatics Contest 2014
-- Achieved the title of Outstanding Student from Grade 6-9.
-- Developed websites using the open-source NukeViet CMS.`,
-        skills: [
-          "Pascal",
-          "NukeViet",
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "Self-learning",
-        ],
+      icon: "education",
+      description: `Completed Higher Secondary Certificate (HSC) under the University of Mumbai, focusing on Science stream with Mathematics and Computer Science.`,
+      skills: [
+        "Mathematics",
+        "Physics",
+        "Computer Science",
+      ],
+    },
+    {
+      id: "school-msbshse-001",
+      title: "Maharashtra State Board (MSBSHSE)",
+      employmentPeriod: {
+        start: "From the Start",
+        end: "06.2020",
       },
-    ],
+      icon: "education",
+      description: `Completed Secondary School Certificate (SSC) under the Maharashtra State Board of Secondary and Higher Secondary Education.`,
+      skills: [
+        "Mathematics",
+        "Science",
+        "English",
+      ],
+    },
+  ],
   },
 ];

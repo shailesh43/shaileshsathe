@@ -21,7 +21,7 @@ export const TECH_STACK: TechStack[] = [
     title: "CPP",
     href: "https://isocpp.org/",
     categories: ["Language"],
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png",
+    img: "https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/c++.png",
   },
   {
     key: "python",
@@ -63,6 +63,13 @@ export const TECH_STACK: TechStack[] = [
     img: "https://assets.chanhdai.com/images/tech-stack-icons/tailwindcss.svg",
   },
   {
+    key: "flutter",
+    title: "Flutter",
+    href: "https://flutter.dev/",
+    categories: ["Framework", "Mobile Development"],
+    img: "https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/flutter.png",
+  },
+  {
     key: "motion",
     title: "Motion",
     href: "https://motion.dev/",
@@ -97,13 +104,6 @@ export const TECH_STACK: TechStack[] = [
       dark: "https://assets.chanhdai.com/images/tech-stack-icons/radixui-dark.svg",
       light: "https://assets.chanhdai.com/images/tech-stack-icons/radixui-light.svg"
     },
-  },
-  {
-    key: "mobx-state-tree",
-    title: "MobX-State-Tree",
-    href: "https://mobx-state-tree.js.org/",
-    categories: ["State Management"],
-    img: "https://assets.chanhdai.com/images/tech-stack-icons/mobx-state-tree.svg",
   },
   {
     key: "redux",
