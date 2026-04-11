@@ -18,8 +18,8 @@ export default function Page() {
         <h1 className="text-3xl font-semibold">Blogs</h1>
       </div>
       <p className="ml-5 font-mono text-sm font-medium text-muted-foreground select-none">Coming Soon...</p>
-
-      <div className="screen-line-after p-4">
+      
+      {/* <div className="screen-line-after p-4">
         <p className="font-mono text-sm text-balance text-muted-foreground">
           {metadata.description}
         </p>
@@ -45,7 +45,7 @@ export default function Page() {
               />
             ))}
         </div>
-      </div>
+      </div> */}
 
       <div className="h-4" />
     </>
