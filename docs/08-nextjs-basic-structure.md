@@ -142,7 +142,7 @@ add th
   "libphonenumber-js": "^1.12.4",
   "lucide-react": "^0.516.0",
   "motion": "^12.18.1",
-  "next-mdx-remote": "^5.0.0",
+  "next-mdx-remote": "^6.0.0",
   "next-themes": "^0.4.6",
   "radix-ui": "^1.4.2",
   "react-confetti": "^6.3.0",
