@@ -36,6 +36,8 @@
 
   --font-sans: var(--font-sans);
   --font-mono: var(--font-mono);
+  --font-serif: var(--font-serif);
+
 
   --shadow-popover: var(--shadow-popover);
 }
@@ -150,6 +152,7 @@
   --code-highlight: oklch(0.967 0.001 286.375);
 
   --shadow-popover: 0 6px 24px rgba(0, 0, 0, 0.25);
+
 }
 
 .dark {
