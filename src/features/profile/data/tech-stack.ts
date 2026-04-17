@@ -156,7 +156,7 @@ export const TECH_STACK: TechStack[] = [
     title: "PostgreSQL",
     href: "https://www.postgresql.org/",
     categories: ["Database"],
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png",
+    img: "https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/postgresql.png",
   },
   {
     key: "mongodb",

@@ -147,8 +147,8 @@ export function CommandMenu() {
   const handleDownloadResume = useCallback(() => {
     setOpen(false);
     const link = document.createElement('a');
-    link.href = '/shaileshsathe_resume.pdf';
-    link.download = 'shaileshsathe_resume.pdf';
+    link.href = '/Shailesh Resume.pdf';
+    link.download = 'Shailesh Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

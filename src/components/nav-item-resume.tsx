@@ -8,8 +8,8 @@ import { Button } from "@/components/ui/button";
 export function NavItemResume() {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/shaileshsathe_resume.pdf';
-    link.download = 'shaileshsathe_resume.pdf';
+    link.href = '/Shailesh Resume.pdf';
+    link.download = 'Shailesh Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
