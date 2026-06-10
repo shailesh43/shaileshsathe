@@ -6,8 +6,8 @@ import { hook } from "./registry-hook";
 import { lib } from "./registry-lib";
 
 export const registry = {
-  name: "ncdai",
-  homepage: "https://chanhdai.com/components",
+  name: "shaileshsathe",
+  homepage: "https://shailesh.is-a.dev/components",
   items: [
     ...lib,
     ...hook,

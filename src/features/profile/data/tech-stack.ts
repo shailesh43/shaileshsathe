@@ -123,13 +123,6 @@ export const TECH_STACK: TechStack[] = [
       light: "https://assets.chanhdai.com/images/tech-stack-icons/react-router-light.svg"
     },
   },
-  // {
-  //   key: "loopback",
-  //   title: "LoopBack",
-  //   href: "https://loopback.io/",
-  //   categories: ["Framework"],
-  //   img: "https://assets.chanhdai.com/images/tech-stack-icons/loopback.svg",
-  // },
   {
     key: "bun",
     title: "Bun",
