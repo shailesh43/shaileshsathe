@@ -13,6 +13,7 @@ export const USER = {
   phoneNumber: "OTEzNzczOTE1OQo=", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
   email: "c2F0aGVzaGFpbGVzaDQzQGdtYWlsLmNvbQ==", // base64 encoded
   website: "https://shaileshsathe.vercel.app",
+  githubUrl: "https://github.com/shailesh43",
   otherWebsites: [
     "https://pomesh.vercel.app",
   ],
@@ -20,17 +21,12 @@ export const USER = {
   jobTitle: "Design Engineer",
   jobs: [],
   about: `
-  **Hi!** I'm Shailesh - 21 yo Computer Science grad at Mumbai University, IN.
+  **Hi!** I'm **Shailesh** — a Computer Science graduate from Mumbai University and a former Software Development Engineer Intern at Tata Power.
 
-- I recently completed a 6-month Software Development Engineering internship at Tata Power, where I worked on enterprise applications and gained experience building scalable software solutions.
+I enjoy building web and mobile applications with **Next.js, React, TypeScript, Flutter, Node.js, and PostgreSQL**. I'm particularly interested in system design, cloud technologies, and creating UXs that people genuinely enjoy using.
 
-- My primary stack includes **Next.js, React, TypeScript, Flutter, Node.js, and PostgreSQL**. I'm particularly interested in full-stack development, system design, cloud technologies, and creating products that deliver great user experiences.
-
-Outside of coding, I enjoy learning new technologies, contributing to technical communities, and continuously sharpening my engineering skills.
-
-Let's connect and build together.
-
-  `,
+Currently focused on learning, building, and growing as a software engineer.
+`,
   avatar: "https://i.pinimg.com/736x/71/7c/2d/717c2dc3b9d7557e2f9253fc766f499d.jpg",
   avatarWebp: "https://res.cloudinary.com/dseaws6qk/image/upload/a_90/c_auto,h_800,w_800/goofy_pfp_compressed_evdvdx.jpg",
   ogImage: "https://res.cloudinary.com/dseaws6qk/image/upload/f_auto,q_auto/portfolio_profile_mp83nc",
