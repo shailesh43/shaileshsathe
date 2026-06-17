@@ -1,7 +1,11 @@
 import Image from "next/image";
 import React from "react";
 
-import { SimpleTooltip } from "@/components/ui/tooltip";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 
 import { TECH_STACK } from "../data/tech-stack";
@@ -25,44 +29,50 @@ export function TeckStack() {
           {TECH_STACK.map((tech) => {
             return (
               <li key={tech.key} className="flex">
-                <SimpleTooltip content={tech.title}>
-                  <a
-                    href={tech.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={tech.title}
-                  >
-                    {tech.theme && typeof tech.img === 'object' ? (
-                      <>
-                        <Image
-                          src={tech.img.light}
-                          alt={`${tech.title} light icon`}
-                          width={36}
-                          height={36}
-                          className="hidden [html.light_&]:block"
-                          unoptimized
-                        />
-                        <Image
-                          src={tech.img.dark}
-                          alt={`${tech.title} dark icon`}
-                          width={36}
-                          height={36}
-                          className="hidden [html.dark_&]:block"
-                          unoptimized
-                        />
-                      </>
-                    ) : (
-                      <Image
-                        src={`${tech.img}`}
-                        alt={`${tech.title} icon`}
-                        width={36}
-                        height={36}
-                        unoptimized
-                      />
-                    )}
-                    <span className="sr-only">{tech.title}</span>
-                  </a>
-                </SimpleTooltip>
+                <Tooltip>
+  <TooltipTrigger asChild>
+    <a
+      href={tech.href}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={tech.title}
+    >
+      {tech.theme && typeof tech.img === "object" ? (
+        <>
+          <Image
+            src={tech.img.light}
+            alt={`${tech.title} light icon`}
+            width={36}
+            height={36}
+            className="hidden [html.light_&]:block"
+            unoptimized
+          />
+          <Image
+            src={tech.img.dark}
+            alt={`${tech.title} dark icon`}
+            width={36}
+            height={36}
+            className="hidden [html.dark_&]:block"
+            unoptimized
+          />
+        </>
+      ) : (
+        <Image
+          src={`${tech.img}`}
+          alt={`${tech.title} icon`}
+          width={36}
+          height={36}
+          unoptimized
+        />
+      )}
+      <span className="sr-only">{tech.title}</span>
+    </a>
+  </TooltipTrigger>
+
+  <TooltipContent>
+    {tech.title}
+  </TooltipContent>
+</Tooltip>
               </li>
             );
           })}

@@ -20,13 +20,16 @@ export const USER = {
   jobTitle: "Design Engineer",
   jobs: [],
   about: `
-  **Hi!** I'm *Shailesh* -  21 yo Computer Science grad at Mumbai University, IN
-  - I like studying and building cool stuff with code.
-  - Most days, I'm building with [Next.js](), [React](), [TypeScript](), and modern frontend techs; crafting responsive, user-centric interaces across web & mobile.
-  - Alongside, I’ve built a strong foundations in **APIs, Databases, Cloud services, and UNIX configs**; allowing me to handle the backend side when needed.  
-  - I also contribute to tech communities in college; helping organize seminars & volunteering with tech-stuff.
-  
-  Let’s connect and build together.
+  **Hi!** I'm Shailesh - 21 yo Computer Science grad at Mumbai University, IN.
+
+- I recently completed a 6-month Software Development Engineering internship at Tata Power, where I worked on enterprise applications and gained experience building scalable software solutions.
+
+- My primary stack includes **Next.js, React, TypeScript, Flutter, Node.js, and PostgreSQL**. I'm particularly interested in full-stack development, system design, cloud technologies, and creating products that deliver great user experiences.
+
+Outside of coding, I enjoy learning new technologies, contributing to technical communities, and continuously sharpening my engineering skills.
+
+Let's connect and build together.
+
   `,
   avatar: "https://i.pinimg.com/736x/71/7c/2d/717c2dc3b9d7557e2f9253fc766f499d.jpg",
   avatarWebp: "https://res.cloudinary.com/dseaws6qk/image/upload/a_90/c_auto,h_800,w_800/goofy_pfp_compressed_evdvdx.jpg",

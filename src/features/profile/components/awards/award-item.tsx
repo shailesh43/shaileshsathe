@@ -13,7 +13,7 @@ import {
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
 import { Separator } from "@/components/ui/separator";
-import { SimpleTooltip } from "@/components/ui/tooltip";
+import { Tooltip, TooltipTrigger } from "@/components/ui/tooltip";
 import { Prose } from "@/components/ui/typography";
 
 import type { Award } from "../../types/awards";
@@ -78,20 +78,25 @@ export function AwardItem({
               </div>
 
               {award.referenceLink && (
-                <SimpleTooltip content="Open Reference Attachment">
-                  <a
-                    className="flex size-6 shrink-0 items-center justify-center text-muted-foreground hover:text-foreground"
-                    href={award.referenceLink}
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    <FileCheckIcon
-                      className="pointer-events-none size-4"
-                      aria-hidden
-                    />
-                    <span className="sr-only">Open Reference Attachment</span>
-                  </a>
-                </SimpleTooltip>
+                <Tooltip>
+  <TooltipTrigger asChild>
+    <a
+      className="flex size-6 shrink-0 items-center justify-center text-muted-foreground hover:text-foreground"
+      href={award.referenceLink}
+      target="_blank"
+      rel="noopener"
+    >
+      <FileCheckIcon
+        className="pointer-events-none size-4"
+        aria-hidden
+      />
+      <span className="sr-only">
+        Open Reference Attachment
+      </span>
+    </a>
+  </TooltipTrigger>
+
+</Tooltip>
               )}
 
               {canExpand && (

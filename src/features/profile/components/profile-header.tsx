@@ -1,4 +1,8 @@
-import { SimpleTooltip } from "@/components/ui/tooltip";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 import { USER } from "@/data/user";
 import { cn } from "@/lib/utils";
 import { FlipSentences } from "@/registry/flip-sentences";
@@ -51,9 +55,17 @@ export function ProfileHeader() {
           <h1 className="flex items-center pl-4 text-3xl font-semibold">
             {USER.displayName}
             &nbsp;
-            <SimpleTooltip content="Verified">
-              <VerifiedIcon className="size-[0.6em] text-info" />
-            </SimpleTooltip>
+            <Tooltip>
+  <TooltipTrigger asChild>
+    <span>
+      <VerifiedIcon className="size-[0.6em] text-info" />
+    </span>
+  </TooltipTrigger>
+
+  <TooltipContent>
+    Verified
+  </TooltipContent>
+</Tooltip>
           </h1>
 
           <div className="h-12 border-t border-edge py-1 pl-4 sm:h-auto">
