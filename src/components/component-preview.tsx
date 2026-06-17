@@ -10,7 +10,6 @@ import { CodeCollapsibleWrapper } from "./code-collapsible-wrapper";
 import { OpenInV0Button } from "./open-in-v0";
 import { Button } from "./ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
-import { SimpleTooltip } from "./ui/tooltip";
 import { Code as CodeInline } from "./ui/typography";
 
 export function ComponentPreview({
@@ -61,15 +60,12 @@ export function ComponentPreview({
             {(canReplay || openInV0Url) && (
               <div className="flex justify-end gap-2">
                 {canReplay && (
-                  <SimpleTooltip content="Replay">
-                    <Button
-                      variant="outline"
-                      size="icon"
-                      onClick={() => setReplay((v) => v + 1)}
-                    >
-                      <RepeatIcon />
-                    </Button>
-                  </SimpleTooltip>
+                  <Button
+                    variant="outline"
+                    onClick={() => setReplay((prev) => prev + 1)}
+                  >
+                    <RepeatIcon />
+                  </Button>
                 )}
 
                 {openInV0Url && <OpenInV0Button url={openInV0Url} />}
