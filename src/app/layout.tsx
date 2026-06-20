@@ -1,3 +1,5 @@
+import "@/styles/globals.css";
+
 import type { Metadata, Viewport } from "next";
 import { Geist } from "next/font/google";
 import Script from "next/script";
@@ -8,7 +10,6 @@ import { META_THEME_COLORS, SITE_INFO } from "@/config/site";
 import { USER } from "@/data/user";
 import { fontMono, fontSerif } from "@/lib/fonts";
 import { cn } from "@/lib/utils";
-
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 

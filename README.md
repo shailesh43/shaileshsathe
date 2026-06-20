@@ -1,7 +1,15 @@
 # [Shailesh's Portfolio](https://shaileshsathe.vercel.app)
 
-### Project todos
+Personal portfolio built with Next.js.
 
-- [ ] **Update Projects** — Show your best projects.
-- [ ] **Update Certs & Blogs** — Add frequent blogs on your portfolio.
-- [ ] **Improve Profile header** — Work on the UX of website. Add more micro-animations.
+## Development Notes
+
+* Build features **quantitatively** — every feature should have a clear purpose, measurable improvement, or visible UX gain.
+* Always run `pnpm run build` **before pushing to GitHub** to catch type, lint, and production build issues early.
+* Keep Vercel deployments healthy — monitor failed builds, broken previews, and production deploy status regularly.
+
+## Project TODOs
+
+* [ ] Update projects section with strongest work
+* [ ] Add certifications and write blogs more consistently
+* [x] Improve hero/header UX and add subtle micro-interactions
