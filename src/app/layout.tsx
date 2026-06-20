@@ -1,5 +1,3 @@
-import "@/styles/globals.css";
-
 import type { Metadata, Viewport } from "next";
 import { Geist } from "next/font/google";
 import Script from "next/script";
